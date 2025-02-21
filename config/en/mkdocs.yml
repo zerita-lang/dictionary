@@ -10,6 +10,7 @@ nav:
   - Dictionary: index.md
   - Adjectives: adjectives.md
   - Nouns: nouns.md
+  - Verbs: verbs.md
 
 markdown_extensions:
   - pymdownx.highlight:
