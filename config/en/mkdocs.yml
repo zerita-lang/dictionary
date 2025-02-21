@@ -9,6 +9,7 @@ nav:
   - Home: https://zerita-lang.github.io/zerita/en/
   - Dictionary: index.md
   - Adjectives: adjectives.md
+  - Nouns: nouns.md
 
 markdown_extensions:
   - pymdownx.highlight:
