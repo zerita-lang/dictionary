@@ -9,6 +9,7 @@ nav:
   - Αρχική: https://zerita-lang.github.io/zerita/el/
   - Λεξικό: index.md
   - Επίθετα: adjectives.md
+  - Ουσιαστικά: nouns.md
 
 markdown_extensions:
   - pymdownx.highlight:
