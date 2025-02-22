@@ -10,6 +10,7 @@ nav:
   - Λεξικό: index.md
   - Επίθετα: adjectives.md
   - Ουσιαστικά: nouns.md
+  - Ρήματα: verbs.md
 
 markdown_extensions:
   - pymdownx.highlight:
