@@ -1,17 +1,13 @@
-site_name: zerita dictionary
-docs_dir: "../../docs/en"
-site_dir: "../../site/en"
+site_name: Λεξικό της ζερίτα
+docs_dir: "../../docs/el"
+site_dir: "../../site/el"
 
 repo_name: zerita-lang/dictionary
 repo_url: https://github.com/zerita-lang/dictionary
 
 nav:
-  - Home: https://zerita-lang.github.io/zerita/en/
-  - Dictionary: index.md
-  - Adjectives: adjectives.md
-  - Nouns: nouns.md
-  - Verbs: verbs.md
-  - Colours: colours.md
+  - Αρχική: https://zerita-lang.github.io/zerita/el/
+  - Λεξικό: index.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -23,7 +19,7 @@ markdown_extensions:
 
 theme:
   name: material
-  language: en
+  language: el
 
   icon:
     repo: fontawesome/brands/github
@@ -33,13 +29,13 @@ theme:
       scheme: default
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Αλλαγή σε σκοτεινή λειτουργία
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Αλλαγή σε φωτεινή λειτουργία
 
   features:
     - content.code.annotate
@@ -54,7 +50,7 @@ theme:
 
 plugins:
   - search:
-      lang: en
+      lang: el
 
 extra:
   alternate:
