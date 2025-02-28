@@ -1,0 +1,66 @@
+site_name: zerita dictionary
+docs_dir: "../../docs/en"
+site_dir: "../../site/en"
+
+repo_name: zerita-lang/dictionary
+repo_url: https://github.com/zerita-lang/dictionary
+
+nav:
+  - Home: https://zerita-lang.github.io/zerita/en/
+  - Dictionary: index.md
+  - Adjectives: adjectives.md
+  - Nouns: nouns.md
+  - Verbs: verbs.md
+  - Colours: colours.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.snippets
+
+theme:
+  name: material
+  language: en
+
+  icon:
+    repo: fontawesome/brands/github
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - search
+    - search.suggest
+    - search.share
+
+plugins:
+  - search:
+      lang: en
+
+extra:
+  alternate:
+    - name: 🇬🇧 English
+      link: /dictionary/en/
+      lang: en
+    - name: 🇬🇷 Ελληνικά
+      link: /dictionary/el/
+      lang: el
